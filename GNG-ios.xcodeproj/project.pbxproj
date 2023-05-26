@@ -11,6 +11,18 @@
 		0BD5C2712A21494200BB4E6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2702A21494200BB4E6F /* ContentView.swift */; };
 		0BD5C2732A21494500BB4E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD5C2722A21494500BB4E6F /* Assets.xcassets */; };
 		0BD5C2762A21494500BB4E6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BD5C2752A21494500BB4E6F /* Preview Assets.xcassets */; };
+		0BD5C27D2A214AAD00BB4E6F /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C27C2A214AAD00BB4E6F /* OnBoardingView.swift */; };
+		0BD5C27F2A214F3A00BB4E6F /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C27E2A214F3A00BB4E6F /* SelectionView.swift */; };
+		0BD5C2812A2151EA00BB4E6F /* NanumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2802A2151EA00BB4E6F /* NanumView.swift */; };
+		0BD5C2832A21535100BB4E6F /* NanumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2822A21535100BB4E6F /* NanumViewModel.swift */; };
+		0BD5C2862A2154EB00BB4E6F /* StarRatingViewSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD5C2852A2154EB00BB4E6F /* StarRatingViewSwiftUI */; };
+		0BD5C2882A2159DF00BB4E6F /* BiddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2872A2159DF00BB4E6F /* BiddingView.swift */; };
+		0BD5C28A2A215B2E00BB4E6F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2892A215B2E00BB4E6F /* SearchView.swift */; };
+		0BD5C28C2A215BC100BB4E6F /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C28B2A215BC100BB4E6F /* Content.swift */; };
+		0BD5C28E2A215DF200BB4E6F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C28D2A215DF200BB4E6F /* NetworkService.swift */; };
+		0BD5C2912A215E1100BB4E6F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0BD5C2902A215E1100BB4E6F /* Alamofire */; };
+		0BD5C2932A215E2500BB4E6F /* NetworkEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2922A215E2500BB4E6F /* NetworkEndpoint.swift */; };
+		0BD5C2952A2164B700BB4E6F /* BiddingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5C2942A2164B700BB4E6F /* BiddingDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,16 @@
 		0BD5C2702A21494200BB4E6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0BD5C2722A21494500BB4E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BD5C2752A21494500BB4E6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0BD5C27C2A214AAD00BB4E6F /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		0BD5C27E2A214F3A00BB4E6F /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		0BD5C2802A2151EA00BB4E6F /* NanumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanumView.swift; sourceTree = "<group>"; };
+		0BD5C2822A21535100BB4E6F /* NanumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanumViewModel.swift; sourceTree = "<group>"; };
+		0BD5C2872A2159DF00BB4E6F /* BiddingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingView.swift; sourceTree = "<group>"; };
+		0BD5C2892A215B2E00BB4E6F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		0BD5C28B2A215BC100BB4E6F /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		0BD5C28D2A215DF200BB4E6F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0BD5C2922A215E2500BB4E6F /* NetworkEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkEndpoint.swift; path = ../../NetworkEndpoint.swift; sourceTree = "<group>"; };
+		0BD5C2942A2164B700BB4E6F /* BiddingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiddingDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD5C2862A2154EB00BB4E6F /* StarRatingViewSwiftUI in Frameworks */,
+				0BD5C2912A215E1100BB4E6F /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +77,18 @@
 			children = (
 				0BD5C26E2A21494200BB4E6F /* GNG_iosApp.swift */,
 				0BD5C2702A21494200BB4E6F /* ContentView.swift */,
+				0BD5C27C2A214AAD00BB4E6F /* OnBoardingView.swift */,
+				0BD5C27E2A214F3A00BB4E6F /* SelectionView.swift */,
+				0BD5C2802A2151EA00BB4E6F /* NanumView.swift */,
 				0BD5C2722A21494500BB4E6F /* Assets.xcassets */,
 				0BD5C2742A21494500BB4E6F /* Preview Content */,
+				0BD5C2822A21535100BB4E6F /* NanumViewModel.swift */,
+				0BD5C2872A2159DF00BB4E6F /* BiddingView.swift */,
+				0BD5C2892A215B2E00BB4E6F /* SearchView.swift */,
+				0BD5C28B2A215BC100BB4E6F /* Content.swift */,
+				0BD5C28D2A215DF200BB4E6F /* NetworkService.swift */,
+				0BD5C2922A215E2500BB4E6F /* NetworkEndpoint.swift */,
+				0BD5C2942A2164B700BB4E6F /* BiddingDetailView.swift */,
 			);
 			path = "GNG-ios";
 			sourceTree = "<group>";
@@ -83,6 +117,10 @@
 			dependencies = (
 			);
 			name = "GNG-ios";
+			packageProductDependencies = (
+				0BD5C2852A2154EB00BB4E6F /* StarRatingViewSwiftUI */,
+				0BD5C2902A215E1100BB4E6F /* Alamofire */,
+			);
 			productName = "GNG-ios";
 			productReference = 0BD5C26B2A21494200BB4E6F /* GNG-ios.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +149,10 @@
 				Base,
 			);
 			mainGroup = 0BD5C2622A21494200BB4E6F;
+			packageReferences = (
+				0BD5C2842A2154EB00BB4E6F /* XCRemoteSwiftPackageReference "StarRatingViewSwiftUI" */,
+				0BD5C28F2A215E1100BB4E6F /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0BD5C26C2A21494200BB4E6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +179,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BD5C28E2A215DF200BB4E6F /* NetworkService.swift in Sources */,
+				0BD5C27D2A214AAD00BB4E6F /* OnBoardingView.swift in Sources */,
+				0BD5C2812A2151EA00BB4E6F /* NanumView.swift in Sources */,
 				0BD5C2712A21494200BB4E6F /* ContentView.swift in Sources */,
 				0BD5C26F2A21494200BB4E6F /* GNG_iosApp.swift in Sources */,
+				0BD5C2952A2164B700BB4E6F /* BiddingDetailView.swift in Sources */,
+				0BD5C28A2A215B2E00BB4E6F /* SearchView.swift in Sources */,
+				0BD5C28C2A215BC100BB4E6F /* Content.swift in Sources */,
+				0BD5C2882A2159DF00BB4E6F /* BiddingView.swift in Sources */,
+				0BD5C2932A215E2500BB4E6F /* NetworkEndpoint.swift in Sources */,
+				0BD5C2832A21535100BB4E6F /* NanumViewModel.swift in Sources */,
+				0BD5C27F2A214F3A00BB4E6F /* SelectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +391,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BD5C2842A2154EB00BB4E6F /* XCRemoteSwiftPackageReference "StarRatingViewSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/magickworx/StarRatingViewSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		0BD5C28F2A215E1100BB4E6F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BD5C2852A2154EB00BB4E6F /* StarRatingViewSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD5C2842A2154EB00BB4E6F /* XCRemoteSwiftPackageReference "StarRatingViewSwiftUI" */;
+			productName = StarRatingViewSwiftUI;
+		};
+		0BD5C2902A215E1100BB4E6F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BD5C28F2A215E1100BB4E6F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BD5C2632A21494200BB4E6F /* Project object */;
 }
